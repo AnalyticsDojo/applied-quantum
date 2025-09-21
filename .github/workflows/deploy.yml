@@ -15,10 +15,24 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+
+jobs:
+  deploy-book:
+    runs-on: ubuntu-latest
+
+
+
+
+
 jobs:
   deploy-book:
     runs-on: ubuntu-latest
     # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+    # REQUIRED for actions/deploy-pages
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
     permissions:
       pages: write
       id-token: write
