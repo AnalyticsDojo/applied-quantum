@@ -19,14 +19,6 @@ concurrency:
 jobs:
   deploy-book:
     runs-on: ubuntu-latest
-
-
-
-
-
-jobs:
-  deploy-book:
-    runs-on: ubuntu-latest
     # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
     # REQUIRED for actions/deploy-pages
     environment:
