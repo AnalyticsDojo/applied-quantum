@@ -49,3 +49,7 @@ build
 #
  # Other
  .DS_Store
+
+config/*
+site/_build/*
+scripts/*

@@ -3,34 +3,39 @@ import pandas as pd
 import subprocess
 import numpy as np
 from tabulate import tabulate
-import ruamel.yaml
+
 DATE='Date'
 DUE='Due'
 
+import yaml
+
 def load_yaml_file(file):
     """
-    Loads a yaml file from file system.
-    @param file Path to file to be loaded.
+    Loads a YAML file from the file system.
+    @param file: Path to the file to be loaded.
+    @return: Parsed YAML content as a Python dictionary.
     """
     try:
-        with open(file, 'r') as yaml:
-            kwargs = ruamel.yaml.round_trip_load(yaml, preserve_quotes=True)
+        with open(file, "r") as f:
+            kwargs = yaml.safe_load(f)
         return kwargs
-    except subprocess.CalledProcessError as e:
-        print("error")
-    return(e.output.decode("utf-8"))
+    except Exception as e:
+        print(f"Error loading YAML file {file}: {e}")
+        return None
+
 
 def update_yaml_file(file, kwargs):
     """
-    Updates a yaml file.
-    @param kwargs dictionary.
+    Updates (writes) a YAML file with the given dictionary.
+    @param file: Path to the file to be updated.
+    @param kwargs: Dictionary to write as YAML.
     """
-    print("Updating the file: " + str(file))
+    print(f"Updating the file: {file}")
     try:
-        ruamel.yaml.round_trip_dump(kwargs, open(file, 'w'))
-    except subprocess.CalledProcessError as e:
-        print("error: " + e)
-
+        with open(file, "w") as f:
+            yaml.safe_dump(kwargs, f, default_flow_style=False, sort_keys=False)
+    except Exception as e:
+        print(f"Error updating YAML file {file}: {e}")
 
 
 # def load_yaml_file(file):

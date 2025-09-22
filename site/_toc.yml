@@ -3,7 +3,24 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+
+parts:
+- caption: NOTEBOOKS
+  numbered: True
+  start_numbering_at: 1
+  chapters:
+  - glob: notebooks/nb*
+- caption: ASSIGNMENTS
+  numbered: True
+  start_numbering_at: 1
+  chapters:
+  - glob: assignments/hw*
+- caption: Resources
+  numbered: False
+  chapters:
+  - file: markdown/quantum_setup.md
+    title: Local Setup 
+  - url: https://classroom.google.com/c/ODA3MDQ4OTk0Mzg3?cjc=g7l7emsf
+    title: Google Classroom Site
+  - url: https://drive.google.com/drive/folders/11q8qEH5WueMuADoPaWCOLtNuvgBjmU24jLkj69l0ykfl_xplLIylvGUldRYz8If897Fz7Oq0
+    title: Google Classroom Files
