@@ -18,3 +18,4 @@ qiskit-machine-learning
 ghp-import
 openpyxl
 sphinx-autobuild
+pdflatex
