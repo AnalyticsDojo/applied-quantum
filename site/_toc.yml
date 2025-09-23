@@ -5,16 +5,44 @@ format: jb-book
 root: intro
 
 parts:
-#- caption: NOTEBOOKS
-  numbered: True
-  start_numbering_at: 1
-  chapters:
-  - glob: notebooks/nb*
 - caption: Quantum Computing Book
-  numbered: True
+  numbered: true
   start_numbering_at: 1
   chapters:
-  - glob: notebooks/book/*
+    - glob: notebooks/books/Chapter1/*
+- caption: Chapter 2
+  numbered: true
+  chapters:
+    - glob: notebooks/books/Chapter2/*
+- caption: Chapter 3
+  numbered: true
+  chapters:
+    - glob: notebooks/books/Chapter3/*
+- caption: Chapter 4
+  numbered: true
+  chapters:
+    - glob: notebooks/books/Chapter4/*
+- caption: Chapter 5
+  numbered: true
+  chapters:
+    - glob: notebooks/books/Chapter5/*
+- caption: Chapter 6
+  numbered: true
+  chapters:
+    - glob: notebooks/books/Chapter6/*
+- caption: Chapter 7
+  numbered: true
+  chapters:
+    - glob: notebooks/books/Chapter7/*
+- caption: Chapter 8
+  numbered: true
+  chapters:
+    - glob: notebooks/books/Chapter8/*
+- caption: Chapter 9
+  numbered: true
+  chapters:
+    - glob: notebooks/books/Chapter9/*
+
 - caption: Resources
   numbered: False
   chapters:
