@@ -5,16 +5,16 @@ format: jb-book
 root: intro
 
 parts:
-- caption: NOTEBOOKS
+#- caption: NOTEBOOKS
   numbered: True
   start_numbering_at: 1
   chapters:
   - glob: notebooks/nb*
-- caption: ASSIGNMENTS
+- caption: Quantum Computing Book
   numbered: True
   start_numbering_at: 1
   chapters:
-  - glob: assignments/nb*
+  - glob: notebooks/book/*
 - caption: Resources
   numbered: False
   chapters:
