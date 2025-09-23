@@ -9,39 +9,15 @@ parts:
   numbered: true
   start_numbering_at: 1
   chapters:
-    - glob: notebooks/books/Chapter1/*
-- caption: Chapter 2
-  numbered: true
-  chapters:
-    - glob: notebooks/books/Chapter2/*
-- caption: Chapter 3
-  numbered: true
-  chapters:
-    - glob: notebooks/books/Chapter3/*
-- caption: Chapter 4
-  numbered: true
-  chapters:
-    - glob: notebooks/books/Chapter4/*
-- caption: Chapter 5
-  numbered: true
-  chapters:
-    - glob: notebooks/books/Chapter5/*
-- caption: Chapter 6
-  numbered: true
-  chapters:
-    - glob: notebooks/books/Chapter6/*
-- caption: Chapter 7
-  numbered: true
-  chapters:
-    - glob: notebooks/books/Chapter7/*
-- caption: Chapter 8
-  numbered: true
-  chapters:
-    - glob: notebooks/books/Chapter8/*
-- caption: Chapter 9
-  numbered: true
-  chapters:
-    - glob: notebooks/books/Chapter9/*
+    - file: notebooks/book/Chapter 1/Chapter01
+    - file: notebooks/book/Chapter 2/Chapter02
+    - file: notebooks/book/Chapter 3/Chapter03
+    - file: notebooks/book/Chapter 4/Chapter04
+    - file: notebooks/book/Chapter 5/Chapter05
+    - file: notebooks/book/Chapter 6/Chapter06
+    - file: notebooks/book/Chapter 7/Chapter07
+    - file: notebooks/book/Chapter 8/Chapter08
+    - file: notebooks/book/Chapter 9/Chapter09
 
 - caption: Resources
   numbered: False
