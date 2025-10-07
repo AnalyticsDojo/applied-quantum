@@ -23,6 +23,7 @@ parts:
   start_numbering_at: 1
   chapters:
     - file: notebooks/exercises/nb-01-01
+    - file: notebooks/exercises/nb-01-02
 
 
 - caption: Resources
