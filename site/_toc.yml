@@ -5,19 +5,19 @@ format: jb-book
 root: intro
 
 parts:
-- caption: Quantum Computing Book
-  numbered: true
-  start_numbering_at: 1
-  chapters:
-    - file: notebooks/book/Chapter 1/Chapter01
-    - file: notebooks/book/Chapter 2/Chapter02
-    - file: notebooks/book/Chapter 3/Chapter03
-    - file: notebooks/book/Chapter 4/Chapter04
-    - file: notebooks/book/Chapter 5/Chapter05
-    - file: notebooks/book/Chapter 6/Chapter06
-    - file: notebooks/book/Chapter 7/Chapter07
-    - file: notebooks/book/Chapter 8/Chapter08
-    - file: notebooks/book/Chapter 9/Chapter09
+#- caption: Quantum Computing Book
+  #numbered: true
+  #start_numbering_at: 1
+  #chapters:
+  #  - file: notebooks/book/Chapter 1/Chapter01
+  #  - file: notebooks/book/Chapter 2/Chapter02
+  #  - file: notebooks/book/Chapter 3/Chapter03
+  #  - file: notebooks/book/Chapter 4/Chapter04
+  #  - file: notebooks/book/Chapter 5/Chapter05
+  #  - file: notebooks/book/Chapter 6/Chapter06
+  #  - file: notebooks/book/Chapter 7/Chapter07
+  #  - file: notebooks/book/Chapter 8/Chapter08
+  #  - file: notebooks/book/Chapter 9/Chapter09
 - caption: Class Exercises
   numbered: true
   start_numbering_at: 1
