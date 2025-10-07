@@ -20,4 +20,4 @@ openpyxl
 sphinx-autobuild
 pdflatex
 qiskit-aer
-'qiskit[visualization]'
+qiskit[visualization]
