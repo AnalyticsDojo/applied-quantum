@@ -19,3 +19,5 @@ ghp-import
 openpyxl
 sphinx-autobuild
 pdflatex
+qiskit-aer
+'qiskit[visualization]'
