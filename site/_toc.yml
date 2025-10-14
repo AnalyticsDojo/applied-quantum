@@ -26,6 +26,20 @@ parts:
     - file: notebooks/exercises/nb-01-02
     - file: notebooks/exercises/nb-01-03
 
+- caption: Project Topics
+  numbered: true
+  start_numbering_at: 1
+  chapters:
+    - file: notebooks/projects/supply_chain_mip_qubo_colab_v2
+    - file: notebooks/projects/manufacturing_scheduling_mip_qubo_colab
+    - file: notebooks/projects/workforce_optimization_mip_qubo_colab
+    - file: notebooks/projects/vrptw_mip_qubo_colab
+    - file: notebooks/projects/qubo_facility_location_colab
+    - file: notebooks/projects/portfolio_mvo_qubo_colab
+    - file: notebooks/projects/customer_segmentation_targeting_mip_qubo_colab
+    - file: notebooks/projects/energy_grid_balancing_mip_qubo_colab
+    - file: notebooks/projects/financial_fraud_detection_mip_qubo_colab
+    - file: notebooks/projects/product_recs_mf_qubo_colab
 
 - caption: Resources
   numbered: False
