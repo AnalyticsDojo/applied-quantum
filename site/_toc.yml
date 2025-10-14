@@ -26,6 +26,7 @@ parts:
     - file: notebooks/exercises/nb-01-02
     - file: notebooks/exercises/nb-01-03
 
+    
 - caption: Project Topics
   numbered: true
   start_numbering_at: 1
