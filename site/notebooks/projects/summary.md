@@ -1,5 +1,9 @@
-# Summary of Quantum Problems 
+# Final Project
 
+Please follow this [template](https://quantum.analyticsdojo.com/notebooks/projects/knapsack_bqp.html) to cover the motivation, simple analytical solution, and complex application solved using the BQP platform. 
+
+
+## Summary of Quantum Problems 
 Here are 10 business problems that would fit well with a Quantum project, meaning they involve complex optimization, combinatorial decision-making, or probabilistic modeling where quantum or quantum-inspired algorithms could provide an advantage. I’ve grouped them into domains to show variety:
 
 ⸻

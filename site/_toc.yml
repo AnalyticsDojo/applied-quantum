@@ -32,6 +32,7 @@ parts:
   start_numbering_at: 1
   chapters:
     - file: notebooks/projects/summary.md
+    - file: notebooks/projects/knapsack_bqp
     - file: notebooks/projects/supply_chain_mip_qubo_colab_v2
     - file: notebooks/projects/manufacturing_scheduling_mip_qubo_colab
     - file: notebooks/projects/workforce_optimization_mip_qubo_colab
