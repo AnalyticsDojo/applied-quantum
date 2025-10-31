@@ -25,6 +25,7 @@ parts:
     - file: notebooks/exercises/nb-01-01
     - file: notebooks/exercises/nb-01-02
     - file: notebooks/exercises/nb-01-03
+    - file: notebooks/exercises/nb-01-04
 
 
 - caption: Project Topics
